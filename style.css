@@ -2,14 +2,13 @@
 ul{
     list-style: none;
     display: flex;
-    justify-content: center;
-
-    
+    justify-content: center;   
 }
 ul li{
     font-size: 30px;
     margin: 20px;
     color: blueviolet;
+    
 }
 a{
     text-decoration: none;
@@ -20,6 +19,18 @@ a{
     margin:auto;
     text-align: left;
 }
+.header{
+    background-image: url(./images/mental.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mission{
+    margin: auto;
+    color: blueviolet;
+    font-size:20px ;
+    text-align: center;
+}
+
 .about-us
 {
     color: blueviolet;
@@ -27,10 +38,29 @@ a{
     display: inline-block;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.about-us:hover{
+    background-color: aliceblue; 
+
+}
 .rows{
     margin-top: 10px;
     display: flex;
     justify-content: space-evenly;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: blueviolet;
+    text-transform: uppercase;
+}
+h2{
+    color: blueviolet;
+    font-size: 20px;
+
+}
+.classify{
+    text-align: center;
+    color: blueviolet;
 }
 .button{
     border-radius: 30px;
@@ -38,7 +68,10 @@ a{
     border: 1px solid white;
     padding: 15px;
     color: white;
+    text-align: center;
     cursor: pointer;
+    margin: auto;
+
 }
 button:hover{
     background-color: aliceblue;
@@ -51,3 +84,27 @@ li:hover{
     border-radius: 5px;
     background-color: aliceblue;
 }
+.image{
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+}
+.testimonial{
+    text-align: center;
+}
+.submit{
+    border-radius: 20px;
+    background-color: blueviolet;
+    border: 1px solid white;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    margin: auto;
+    justify-content: center;
+}
+form{
+    color: blueviolet;
+    border: 10px blueviolet;
+}
+
